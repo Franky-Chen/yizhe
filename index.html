@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>一折特卖网</title>
+		<link rel="shortcut icon" href="img/1zhefavicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="js/jQuery-v1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/responsiveslides.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+    <div id="app">
+      <header>
+        <div class="header-top" id="top1">
+          <div class="container head-top">
+            <div class="header-top-left">
+                <span>您好，欢迎光临一折特卖 &nbsp;&nbsp;|</span>
+                  <a href="#">登录</a>
+                <a href="#">注册</a>
+                <div class="thirdlogin">
+                  <a href="#" class="qq"><span class="loginico qqico"></span><em class="down"></em>QQ登录</a>
+                  <ul class="loginmore">
+                    <li><a href="#"><span class="loginico yzico"></span>一折登录</a></li>
+                    <li><a href="#"><span class="loginico wbico"></span>微博登录</a></li>
+                    <li><a href="#"><span class="loginico wxico"></span>微信登录</a></li>
+                    <li><a href="#"><span class="loginico tbico"></span>淘宝登录</a></li>	
+                  </ul>
+                </div>
+            </div>
+            <div class="header-top-right">
+              <a href="#" class="save-desktop"></a>
+              <a href="#">帮助中心</a>
+              <a href="#">在线客服</a>
+              <a href="#">收藏本站</a>
+              <a href="#"><span class="phonegif"></span>手机版</a>
+            </div>
+          </div>
+        </div>
+        <div class="header-center">
+          <div class="container search-center">
+            <a href="#" class="logo"><img src="img/logo.png" alt="logo" /></a>
+            <div class="search-big">
+              <div class="search">
+                <form action="" method="post">
+                  <input type="hidden" name="m" value="search">
+                  <input type="text" name="keywork" id="keywork" value="" placeholder="请输入宝贝名称" required="required"/>
+                  <input type="submit" id="tijiao" name="tijiao" value=""/>
+                </form>
+                <div class="search-new clearfix">
+                  <a href="#" class="red">书包</a>
+                  <a href="#">茶叶</a>
+                  <a href="#" class="red">月饼</a>
+                  <a href="#">四件套</a>
+                  <a href="#" class="red">一折购</a>
+                  <a href="#">中性笔</a>
+                  <a href="#">上衣</a>
+                  <a href="#"class="red">耳机</a>
+                  <a href="#">粮油</a>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="daogou"><img src="img/daogou1.jpg" alt="导购"/></a>
+          </div>
+        </div>
+        <div class="header-bottom-nav">
+          <div class="container head-nav">
+                  <div class="header-bottom-left">
+                    <a href="#" class="nav-checked">首页</a>
+                    <a href="#">9块9包邮</a>
+                    <a href="#">19.9元包邮</a>
+                    <a href="#">优惠券</a>
+                    <a href="#">超值5元购</a>
+                    <a href="#">淘抢购</a>
+                    <a href="#">聚划算</a>
+                  </div>
+                  <div class="header-bottom-right">
+                    <a href="#" class="award"><span>天天抽奖</span><a>	
+                    <div class="qiandao">
+                      <a href="#" class="signin"></a>
+                      <div class="for-signin">
+                        <p>点击签到即可获得: <span class="red">1</span>-<span class="red">5</span>Z币</p>
+                        <a href="#" class="f60">赚更多Z币，抽更多大奖！</a>
+                        <div class="for-signin-bottom">
+                          <a href="#">Z币&amp;集分宝</a>
+                          <span class="fenge">|</span>
+                          <a href="#">赚取Z币</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </header>
+      <section class="centent clearfix container">
+        <section class="container clearfix centent-top">
+          <div class="nav-left">
+            <ul class="nav-list">
+              <li><a href="#"><i class="nav-i1"></i>女装</a></li>
+              <li><a href="#"><i class="nav-i2"></i>男装</a></li>
+              <li><a href="#"><i class="nav-i3"></i>母婴</a></li>
+              <li><a href="#"><i class="nav-i4"></i>美食</a></li>
+              <li><a href="#"><i class="nav-i5"></i>美妆</a></li>
+              <li><a href="#"><i class="nav-i6"></i>鞋包</a></li>
+              <li><a href="#"><i class="nav-i7"></i>数码</a></li>
+              <li><a href="#"><i class="nav-i8"></i>家居</a></li>
+              <li><a href="#"><i class="nav-i9"></i>文具</a></li>
+              <li><a href="#"><i class="nav-i10"></i>配饰</a></li>
+            </ul>
+          </div>
+          <div class="sliders">	
+            <div class="sliders-list">
+              <div class="slider-pic">
+                <a href="#"><img src="img/slider1.png" alt="下载"/></a>
+              </div>
+              <div class="slider-pic">
+                <a href="#"><img src="img/slider2.png" alt="教程"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="erweima">
+            <a href="#"><img src="img/1zhe-phone-ico.png" alt="手机版"/></a>
+            <a href="#"><img src="img/items-dload.gif" alt="gif图片"/></a>
+            <img src="img/item-ewm-9k9.jpg" alt="二维码"/>
+          </div>
+          <div class="otherweb container">
+            <a href="#" class="owatb">爱淘宝</a>
+            <a href="#" class="owtmjx">天猫精选</a>
+            <a href="#" class="owjhs">聚划算</a>
+            <a href="#" class="owtbtm">淘宝特卖</a>
+            <a href="#" class="owtmcs">天猫超市</a>
+            <a href="#" class="owtqg">淘抢购</a>
+            <a href="#" class="owjdsc">京东商城</a>
+          </div>
+        </section>
+        <section class="centent-goods clearfix container">
+          <section class="centent-goods-top">
+            <a href="#" class="recommend">今日更新<strong class="red">34561</strong>款</a>
+            <div class="centent-goods-top-nav">
+              <strom class="choose">筛选：</strom>
+              <ul class="choose-more">
+                <li><a href="#" class="a-recommend">推荐</a></li>
+                <li class="recommend-list">
+                  <a href="#"><em class="down"></em>销量</a>
+                  <div class="recommend-list-rank">
+                    <a href="#">站内商品销量排行</a>
+                    <a href="#">今日商品销量排行</a>
+                  </div>
+                </li>
+                <li class="recommend-list">
+                  <a href="#"><em class="down"></em>折扣</a>
+                  <div class="recommend-list-rank">
+                    <a href="#">站内商品由低到高</a>
+                    <a href="#">今日商品由低到高</a>
+                  </div>
+                </li>
+                <li class="recommend-list">
+                  <a href="#"><em class="down"></em>价格</a>
+                  <div class="recommend-list-rank">
+                    <a href="#">站内商品由低到高</a>
+                    <a href="#">今日商品由低到高</a>
+                  </div>
+                </li>
+                <li><a href="#" class="a-recommend-c">浏览量</a></li>
+                <li><a href="#" class="a-recommend-c">新品</a></li>
+                <li class="recommend-list">
+                  <a href="#"><em class="down"></em>优惠券</a>
+                  <div class="recommend-list-rank youhui">
+                    <a href="#">站内商品优惠券排行</a>
+                    <a href="#">今日商品优惠券排行</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="centent-goods-list clearfix">
+            <ul class="goods-ul clearfix">
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic1.jpg" alt="商品1"/></a>
+                <a href="#" class="ticket"><b>4元</b></a>
+                <span class="newgoods2"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">精品鲜香牛肉干200g</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tm"></i>
+                      		天猫
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>16</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥20</span>
+                      0.80折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>43311件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic2.jpg" alt="商品2"/></a>
+                <a href="#" class="ticket"><b>32元</b></a>
+                <span class="newgoods1"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">男士秋季轻薄上衣</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tb"></i>
+                      	淘宝
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>48</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥80</span>
+                      0.60折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>5624件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic3.jpg" alt="商品3"/></a>
+                <a href="#" class="ticket"><b>24元</b></a>
+                <span class="newgoods1"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">女式百搭牛仔外套</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tm"></i>
+                      	天猫
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>96</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥120</span>
+                      0.80折
+                    </div>
+                    <span class="span3">
+                     	已卖出：
+                      <strong>9368件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix goods-li-fours">
+                <a href="#"><img src="img/goodspic4.jpg" alt="商品4"/></a>
+                <a href="#" class="ticket"><b>18元</b></a>
+                <span class="newgoods2"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">丽时保湿润肤膏</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tm"></i>
+                      	天猫
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>42</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥60</span>
+                      0.70折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>6520件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic5.jpg" alt="商品5"/></a>
+                <a href="#" class="ticket"><b>8元</b></a>
+                <span class="newgoods1"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">轻便小巧型垃圾桶</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tb"></i>
+                      	淘宝
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>8</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥16</span>
+                      0.50折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>10453件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic6.jpg" alt="商品6"/></a>
+                <a href="#" class="ticket"><b>30元</b></a>
+                <span class="newgoods2"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">女式保暖棉绒外套</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tm"></i>
+                      	天猫
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>120</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥150</span>
+                      0.80折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>3560件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic7.jpg" alt="商品7"/></a>
+                <a href="#" class="ticket"><b>4元</b></a>
+                <span class="newgoods1"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">透气冰凉运动毛巾</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tm"></i>
+                      	天猫
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>16</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥20</span>
+                      0.80折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>52148件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix goods-li-fours">
+	            <a href="#"><img src="img/goodspic8.jpg" alt="商品8"/></a>	
+                <a href="#" class="ticket"><b>9元</b></a>
+                <span class="newgoods2"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">会唱歌的小机器人</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tb"></i>
+                      	淘宝
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>21</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥30</span>
+                      0.70折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>4545件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic9.jpg" alt="商品9"/></a>
+                <a href="#" class="ticket"><b>6元</b></a>
+                <span class="newgoods1"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">加大加厚超值垃圾袋</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tm"></i>
+                      	天猫
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>14</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥20</span>
+                      0.70折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>23568件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic10.jpg" alt="商品10"/></a>
+                <a href="#" class="ticket"><b>4元</b></a>
+                <span class="newgoods1"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">九阳家庭电饭煲</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tb"></i>
+                      	淘宝
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>140</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥200</span>
+                      0.70折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>6753件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix">
+                <a href="#"><img src="img/goodspic11.jpg" alt="商品11"/></a>
+                <a href="#" class="ticket"><b>12元</b></a>
+                <span class="newgoods2"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">喜事多燕麦饼干500g</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tm"></i>
+                      	天猫
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>18</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥30</span>
+                      0.60折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>14523件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="goods-li clearfix goods-li-fours" >
+                <a href="#"><img src="img/goodspic12.jpg" alt="商品12"/></a>
+                <a href="#" class="ticket"><b>24元</b></a>
+                <span class="newgoods2"></span>
+                <div class="goods-li-bottom">
+                  <div class="goods-li-bottom-text">
+                    <div class="goods-message">
+                      <span>[包邮]</span>
+                      <a href="#">儿童故事书全集</a>
+                    </div>
+                    <div class="goods-source">
+                      <i class="ico-tm"></i>
+                      	天猫
+                    </div>
+                  </div>
+                  <div class="goods-price">
+                    <span class="span1">
+                      <a href="#" class="discount-ico"></a>
+                      <p >¥<span>56</span></p>
+                    </span>
+                    <div class="goods-price-center">
+                        <span class="span2">¥80</span>
+                      0.70折
+                    </div>
+                    <span class="span3">
+                      	已卖出：
+                      <strong>3568件</strong>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              
+            </ul>
+            
+          </section>
+        </section>
+        <div class="page clearfix container">
+              <span class="page-prev">上一页</span>
+              <a href="#" class="now">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <a href="#">6</a>
+              <a href="#">7</a>
+              <a href="#">8</a>
+              <a href="#">9</a>
+              <a href="#">10</a>
+              <span class="page-next">下一页</span>
+            </div>
+      </section>
+      <footer>
+        <section class="foot">
+          <section class="footer-content clearfix container">
+            <div class="footer-left">
+              <img src="img/tdc_2-9k9.png" alt="二维码"/>
+              <a href="#">手机客户端下载</a>
+            </div>
+            <section class="footer-center">
+              <p>本站商品均来自天猫、淘宝，可享受原来一样的退换货等服务，商品的信息及价格最终以商品页为准，祝大家购物愉快。</p>
+              <p>
+                <strong>下次怎么来：    </strong>
+                <span class="remember">1、记住域名：1zhe.com</span>      
+                <a href="#">2、收藏一折特卖</a>
+              </p>
+              <p class="footer-nav">
+                <a href="#">关于本站</a>|     
+                <a href="#">联系方式</a>|
+                <a href="#">诚聘英才</a>|
+                <a href="#">隐私政策</a>|
+                <a href="#"><i class="opinion"></i>意见反馈</a>
+              </p>
+              <p class="info">
+                <i class="headpic"></i>
+                您还未登录一折特卖账号，请登录查看一折特卖电脑端领取码后到一折特卖APP获得<span class="red">13Z币</span>哦
+                <a href="#" class="enter">马上登录</a>
+              </p>
+            </section>
+            <div class="approve">
+              <a href="#"><img src="img/hy_124x47.png" alt="网站认证"/></a>
+              <a href="#"><img src="img/bottom_large_img.png" alt="网站认证"/></a>
+              <a href="#"><img src="img/ei_normal.png" alt="网站认证"/></a>
+            </div>
+          </section>
+        </section>
+        <p class="copyright">
+          一折特卖网 
+          <a href="#">闽ICP备15004911号</a> 
+          Copyright © 2014-2017 1zhe.com All Rights Reserved 厦门三零零网络科技有限公司 版权所有
+        </p>
+        
+      </footer>
+      <!--跟屏固定元素-->
+      <a href="#" id="fixation1"></a>
+      <a href="#top1" id="fixation2"></a>
+      <section id="fixation3">
+        <div class="header-bottom-nav">
+          <div class="container head-nav">
+                  <div class="header-bottom-left">
+                    <a href="#" class="nav-checked">首页</a>
+                    <a href="#">9块9包邮</a>
+                    <a href="#">19.9元包邮</a>
+                    <a href="#">优惠券</a>
+                    <a href="#">超值5元购</a>
+                    <a href="#">淘抢购</a>
+                    <a href="#">聚划算</a>
+                  </div>
+                  <div class="header-bottom-right">
+                    <a href="#" class="award"><span>天天抽奖</span><a>	
+                    <div class="qiandao">
+                      <a href="#" class="signin"></a>
+                      <div class="for-signin">
+                        <p>点击签到即可获得: <span class="red">1</span>-<span class="red">5</span>Z币</p>
+                        <a href="#" class="f60">赚更多Z币，抽更多大奖！</a>
+                        <div class="for-signin-bottom">
+                          <a href="#">Z币&amp;集分宝</a>
+                          <span class="fenge">|</span>
+                          <a href="#">赚取Z币</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+        <div class="fixation3-bottom">
+          <div class="new-indexes container">
+            <div class="new-nav">
+              <template v-for="(el, i) in fast">
+                <a :href="el.href" @click="cur=i" :class="cur === i ?'on' : ''">{{el.txt}}</a>
+                <i v-if="i===0"></i>
+              </template>
+             
+            </div>
+            <div class="new-search">
+              <form action="#" method="post" class="form2">
+                <input type="text" name="other" id="other" value="" placeholder="请输入宝贝名称" required="required"/>
+                <input type="submit" name="tijiao2" id="tijiao2" value="" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+		<script>
+			var app = new Vue({
+				el: '#app',
+				data: {
+          cur: 1,
+          fast: [
+            {txt: '全部', href: '#'},
+            {txt: '女装', href: '#'},
+            {txt: '男装', href: '#'},
+            {txt: '母婴', href: '#'},
+            {txt: '美食', href: '#'},
+            {txt: '美妆', href: '#'},
+            {txt: '鞋包', href: '#'},
+            {txt: '数码', href: '#'},
+            {txt: '家居', href: '#'},
+            {txt: '文体', href: '#'},
+            {txt: '配饰', href: '#'},
+            {txt: '中老年', href: '#'}
+          ],
+					list: []
+				}
+			})
+		</script>
+	</body>
+</html>

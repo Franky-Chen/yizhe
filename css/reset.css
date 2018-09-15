@@ -1,0 +1,41 @@
+*{	margin:0px;
+	padding: 0px;
+	outline: 0px;
+    /*box-sizing: border-box;*/
+}
+body{
+	background: url(../img/bg.png) repeat;
+	width: 100%;
+}
+html{
+	width:100%;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+.clearfix{zoom: 1;}
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: block;
+	clear:both;
+	height: 0;
+	visibility: hidden;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+img{
+	max-width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.red{
+	color: red!important;
+}
